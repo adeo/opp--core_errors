@@ -2,7 +2,7 @@
 Errors factory module.
 
 #### Basic usage:
-```
+```javascript
 const { factory } = require('@core/errors');
 
 factory('MyNamespace', [
@@ -17,11 +17,10 @@ throw new MyNamespaceError.HoustonProblem('fire', 'hole!!!');
 // Error [MyNamespaceError]: Houston we have a problem [fire in the hole!!!]!!!
 ```
 
-```
+```javascript
 const e = new MyNamespaceError.HoustonProblem('fire in the hole!!!');
 console.log(e.code);     // 'HoustonProblem'
 console.log(e.message);  // 'Houston we have a problem [fire in the hole!!!]!!!'
 console.log(e.category); // 'MyNamespace'
 console.log(e.name);     // 'MyNamespaceError'
-
 ```
