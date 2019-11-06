@@ -1,6 +1,12 @@
 # @core/errors
 Errors factory module. Define you own error with namespace, code and name!
 
+#### Why:
+If you need to catalogue you errors, this module for you!  
+
+#### What:
+Look up on description, and this is one of dependenies for @core/core module.
+
 #### Basic usage:
 ```javascript
 const { factory } = require('@core/errors');
@@ -24,3 +30,6 @@ console.log(e.message);  // 'Houston we have a problem [fire in the hole!!!]!!!'
 console.log(e.category); // 'MyNamespace'
 console.log(e.name);     // 'MyNamespaceError'
 ```
+
+## Maintainers
+Leonid Levkin < Leonid.Levkin@leroymerlin.ru >
