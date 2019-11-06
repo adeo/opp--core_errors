@@ -1,5 +1,5 @@
 # @core/errors
-Errors factory module. Define you own error with namespace, code, caegory and name!
+Errors factory module. Define you own error with namespace, code, category and name!
 
 #### Basic usage:
 ```javascript
