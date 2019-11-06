@@ -16,7 +16,7 @@
   },
   "keywords": [],
   "author": "llevkin",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.11"
   },
