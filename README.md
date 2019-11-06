@@ -1,11 +1,11 @@
 # @core/errors
-Errors factory module. Define you own error with namespace, code and name!
 
 #### Why:
 If you need to catalogue you errors, this module for you!  
 
 #### What:
-Look up on description, and this is one of dependenies for @core/core module.
+Errors factory module. Define you own error with namespace, code and name!
+This is one of dependenies for [@core/core](https://github.com/adeo/opp--core_core) module.
 
 #### Basic usage:
 ```javascript
